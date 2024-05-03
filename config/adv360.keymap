@@ -36,8 +36,9 @@
     mm_gui_f: mod_morph_gui_f {
         compatible = "zmk,behavior-mod-morph";
         #binding-cells = <0>; 
-        bindings = <&hm LSHIFT F>, <&kp LA(TAB)>;
+        bindings = <&hm LSHIFT F>, <&kp TAB>;
         mods = <MOD_LGUI>;
+        keep-mods = <MOD_LALT>;
     };
 
     mm_gui_backspace: mod_morph_gui_backspace {
